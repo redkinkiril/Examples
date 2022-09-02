@@ -21,7 +21,27 @@ void PrintArray(int[] col)
     }
 }
 
+int Index0f(int[] collection, int find)
+{
+    int cont = collection.Length;
+    int index = 0;
+    int position = 0;
+    while (index < cont)
+    {
+        if(collection[index] == find)
+        {
+            position = index;
+        }
+        index++;
+    }
+    return position;
+}
+
 int [] array = new int [10];
 
 FillArray(array);
 PrintArray(array);
+Console.WriteLine();
+
+int pos = Index0f(array, 4);
+Console.WriteLine(pos);
