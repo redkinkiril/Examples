@@ -31,6 +31,7 @@ int Index0f(int[] collection, int find)
         if(collection[index] == find)
         {
             position = index;
+            break;
         }
         index++;
     }
