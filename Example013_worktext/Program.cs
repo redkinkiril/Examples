@@ -13,7 +13,7 @@ string text = "- Я думаю, - сказал князь, улыбаясь, ч�
 //             012
 // s[3] // r
 
-string Replace(string text, char oldValue, char newValue);
+string Replace(string text, char oldValue, char newValue)
 {
     string result = String.Empty;
 
